@@ -131,7 +131,7 @@ function UIMods:updateDestinationText(newText)
 end
 
 function UIMods:updateCountdownText(newText)
-	Sections.Countdown.Text = "Countdown\n" .. newText
+	Sections.Countdown.Text = newText
 end
 
 function UIMods:updateTotalMoneyText(newText)

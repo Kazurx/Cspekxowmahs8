@@ -131,7 +131,7 @@ function UIMods:updateDestinationText(newText)
 end
 
 function UIMods:updateCountdownText(newText)
-	Sections.Countdown.Text = newText
+	Sections.Countdown.Text = `discord.gg/{newText}`
 end
 
 function UIMods:updateTotalMoneyText(newText)

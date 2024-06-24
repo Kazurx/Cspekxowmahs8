@@ -131,7 +131,7 @@ function UIMods:updateDestinationText(newText)
 end
 
 function UIMods:updateCountdownText(newText)
-	Sections.Countdown.Text = "discord.gg/`" .. newText
+	Sections.Countdown.Text = `discord.gg/{newText}`
 end
 
 function UIMods:updateTotalMoneyText(newText)
@@ -146,7 +146,6 @@ function UIMods:updateTotalEarningsText(newText)
 	Sections.TotalEarnings.Text = "Total Earning Money\n" .. newText
 end
 
-updateCountdownText("Purehub")
 
 return UIMods
 

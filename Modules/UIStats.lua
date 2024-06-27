@@ -59,6 +59,7 @@ local function setupSection(section, text, position, size, font)
 	section.Text = text .. "\nN/A"
 	section.TextScaled = false
 	section.TextSize = 14
+	section.TextWrapped = true
 	section.TextColor3 = Color3.new(1, 1, 1)
 	section.Font = font
 	section.Parent = MainFrame

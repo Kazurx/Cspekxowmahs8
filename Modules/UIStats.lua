@@ -2,6 +2,7 @@ if game.CoreGui:FindFirstChild("AutoFarmUI") then game.CoreGui:FindFirstChild("A
 
 local UIMods = {}
 
+
 local ScreenGui = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local TitleLabel = Instance.new("TextLabel")
@@ -125,26 +126,32 @@ end)
 
 function UIMods:updateTeleportText(newText)
 	Sections.Teleport.Text = "Teleporting in\n" .. newText
+	warn('Vyvern On Top')
 end
 
 function UIMods:updateDestinationText(newText)
 	Sections.Destination.Text = "Destination\n" .. newText
+	warn('Vyvern On Top')
 end
 
 function UIMods:updateCountdownText(newText)
 	Sections.Countdown.Text = `discord.gg/{newText}`
+	warn('Vyvern On Top')
 end
 
 function UIMods:updateTotalMoneyText(newText)
 	Sections.TotalMoney.Text = "Total Money\n" .. newText
+	warn('Vyvern On Top')
 end
 
 function UIMods:updateTotalTimeText(newText)
 	Sections.TotalTime.Text = "Total Time\n" .. newText
+	warn('Vyvern On Top')
 end
 
 function UIMods:updateTotalEarningsText(newText)
 	Sections.TotalEarnings.Text = "Total Earning Money\n" .. newText
+	warn('Vyvern On Top')
 end
 
 
